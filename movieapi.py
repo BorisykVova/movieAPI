@@ -9,6 +9,7 @@ log = logger.get_logger('Movie')
 
 app = FastAPI()
 
+
 @app.on_event('startup')
 async def startup():
     log.info('Setting up database...')
