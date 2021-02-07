@@ -1,4 +1,4 @@
-from config_schemes import (
+from .config_schemes import (
     DataBaseConfig,
     ConnectionAlias,
     MySQLCredentials,
